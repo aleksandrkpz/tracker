@@ -1,4 +1,4 @@
-const CACHE = 'tracker-v6'; // при изменении файлов поменяй версию
+const CACHE = 'tracker-v7'; // при изменении файлов поменяй версию
 const FILES = ['./', 'index.html', 'style.css', 'app.js', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
 
 self.addEventListener('install', e => {

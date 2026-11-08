@@ -319,7 +319,7 @@ function chart(points, n, min, max, kind, fmtLabel) {
   const pw = W - L - R, ph = H - B - T;
   const x = i => L + (n === 1 ? pw / 2 : (i * pw) / (n - 1));
   const y = v => T + ph - ((v - min) / (max - min)) * ph;
-  let s = `<svg viewBox="0 0 ${W} ${H}">`;
+  let s = `<svg class="chart" viewBox="0 0 ${W} ${H}">`;
   const steps = kind === 'bar' ? 4 : max - min;
   for (let i = 0; i <= steps; i++) {
     const val = min + ((max - min) * i) / steps;

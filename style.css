@@ -38,12 +38,12 @@ textarea{resize:vertical;min-height:90px}
 .seg button{flex:1;background:none;border:0;padding:7px 0;border-radius:8px;font-size:14px}
 .seg button.on{background:var(--card);font-weight:600}
 .stats{display:grid;grid-template-columns:1fr 1fr;gap:10px}
-svg{width:100%;height:auto;display:block}
-svg text{fill:var(--muted);font-size:9px}
-svg .grid{stroke:var(--line);stroke-width:.5}
-svg .ln{stroke:var(--acc);fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
-svg .dot{fill:var(--acc)}
-svg .bar{fill:var(--acc);opacity:.85}
+svg.chart{width:100%;height:auto;display:block}
+svg.chart text{fill:var(--muted);font-size:9px}
+svg.chart .grid{stroke:var(--line);stroke-width:.5}
+svg.chart .ln{stroke:var(--acc);fill:none;stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
+svg.chart .dot{fill:var(--acc)}
+svg.chart .bar{fill:var(--acc);opacity:.85}
 #tabs{position:fixed;left:0;right:0;bottom:0;display:flex;background:var(--card);border-top:1px solid var(--line);padding-bottom:env(safe-area-inset-bottom)}
 #tabs button{flex:1;background:none;border:0;padding:7px 0 6px;font-size:11px;color:var(--muted)}
 #tabs button i{display:block;font-style:normal;font-size:20px;line-height:1.2}
